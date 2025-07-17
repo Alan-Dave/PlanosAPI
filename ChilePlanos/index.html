@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>ChilePlanos</title>
+</head>
+
+<header class="header">
+    <img src="/img/logo.png" class="logo">
+    <nav class="navegador">
+
+        <a href="#">Inicio</a>
+        <a href="#">Ver</a>
+        <a href="#">Favoritos</a>
+
+        <form class="form-buscar">
+            <input type="text" name="buscar" placeholder="Buscar planos..." class="buscador" id="buscador">
+            <button class="boton-buscar" type="submit">
+                <img src="/img/lupa.png" alt="Buscar" class="lupa">
+            </button>
+        </form>
+        
+            
+        
+    </nav>
+</header>
+
+<body class="body">
+    <main class="main">
+        <h3>Todos los planos que necesites los encuentras en ChilePlanos</h3>
+        <ul>
+            <li>
+                <h4>Plano de Santiago</h4>
+                <p>Descripción: Plano detallado de la ciudad de Santiago, incluyendo calles, avenidas y puntos de interés.</p>
+                <button class="favoritos-btn">+</button>
+            </li>
+            <li>
+                <h4>Plano de Valparaíso</h4>
+                <p>Descripción: Mapa de Valparaíso con sus cerros y principales atracciones turísticas.</p>
+                <button class="favoritos-btn">+</button>
+            </li>
+            <li>
+                <h4>Plano de Concepción</h4>
+                <p>Descripción: Plano de Concepción con información sobre transporte público y zonas comerciales.</p>
+                <button class="favoritos-btn">+</button>
+            </li>
+        </ul>
+    </main>
+</body>
+
+<script src="script.js"></script>
+</html>
